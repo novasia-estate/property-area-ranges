@@ -1,0 +1,19 @@
+package:
+  name: property-area-ranges
+  dependencies:
+    - prelude: ">=6.0.0 <7.0.0"
+    - either: ">=6.1.0 <7.0.0"
+    - numbers: ">=9.0.1 <10.0.0"
+  test:
+    main: Test.Main
+    dependencies:
+      - effect
+      - console
+      - exceptions
+  publish:
+    version: 1.0.0
+    license: MIT
+    location:
+      githubOwner: novasia-estate
+      githubRepo: property-area-ranges
+workspace: {}
